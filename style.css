@@ -1,0 +1,133 @@
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray-backgroundh-eadings-buttons: hsl(0, 0%, 95%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+button {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.btn {
+  background-color: #fff;
+  text-transform: capitalize;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.bright-orange {
+  background-color: var(--Bright-orange);
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.bright-orange .btn {
+  color: var(--Bright-orange);
+}
+.dark-cyan {
+  background-color: var(--Dark-cyan);
+  color: #fff;
+}
+
+.dark-cyan .btn {
+  color: var(--Dark-cyan);
+}
+
+.very-dark-cyan {
+  background-color: var(--Very-dark-cyan);
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+
+.very-dark-cyan .btn {
+  color: var(--Very-dark-cyan);
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  padding: 20px;
+}
+
+.card img {
+  margin-bottom: 25px;
+}
+
+.card h1 {
+  margin-bottom: 20px;
+}
+
+.card p {
+  margin-bottom: 30px;
+}
+
+.card
+/* attribution */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.attribution {
+  margin: 0 auto 10px auto;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 772px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .bright-orange {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .very-dark-cyan {
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
