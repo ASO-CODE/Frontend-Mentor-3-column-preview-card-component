@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/ASO-CODE/Order-Summary-Component-Frontend-Mentor-](https://github.com/ASO-CODE/Order-Summary-Component-Frontend-Mentor-)
-- Live Site URL: [https://aso-code-order-preview-component.netlify.app/](https://aso-code-order-preview-component.netlify.app/)
+- Solution URL: [https://github.com/ASO-CODE/Frontend-Mentor-3-column-preview-card-component](https://github.com/ASO-CODE/Frontend-Mentor-3-column-preview-card-component)
+- Live Site URL: [https://aso-code-3-column-card-component.netlify.app/](https://aso-code-3-column-card-component.netlify.app/)
 
 ## My process
 
